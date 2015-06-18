@@ -1,0 +1,6 @@
+procedure used:
+
+tr ',' '\n' <pe022* > p.txt
+tr -d '\"' < p.txt >q
+sort q > sort1.txt
+./PE22
